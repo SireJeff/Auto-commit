@@ -1,4 +1,4 @@
-```markdown
+
 # GitHub Dummy Commit Dockerized
 
 This repository contains a Python script that performs a dummy commit on a GitHub repository every 12 hours. The script is Dockerized for easy deployment.
