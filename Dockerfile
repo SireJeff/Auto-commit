@@ -2,15 +2,15 @@ FROM python:3.8-slim
 
 WORKDIR /app
 
-COPY dummy_commit.py .
+COPY . .
 
-RUN pip install --no-cache-dir requests schedule
+RUN pip install --no-cache-dir requests schedule 
 
 # Set environment variables
-ENV GITHUB_USERNAME="your_username" \
-    GITHUB_TOKEN="your_personal_access_token" \
-    REPO_OWNER="your_repo_owner" \
-    REPO_NAME="your_repo_name" \
-    FILE_PATH="path/to/your/file.txt"
+ENV GITHUB_USERNAME="SireJeff"\
+    GITHUB_TOKEN="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"\
+    REPO_OWNER="SireJeff"\
+    REPO_NAME="web_api_sales"\
+    FILE_PATH="./test.txt"
 
-CMD ["python", "dummy_commit.py"]
+CMD ["python", "main.py"]
