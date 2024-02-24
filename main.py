@@ -9,15 +9,10 @@ import dotenv
 # USERNAME = "your_username"
 # TOKEN = "your_personal_access_token"  # Generate a token with repo access from https://github.com/settings/tokens
 
-# # Repository information
-# REPO_OWNER = "your_repo_owner"
-# REPO_NAME = "your_repo_name"
-# FILE_PATH = "path/to/your/file.txt"
-USERNAME="SireJeff"
-TOKEN="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"
-REPO_OWNER="SireJeff"
-REPO_NAME="web_api_sales"
-FILE_PATH="./test.txt"
+# Repository information
+REPO_OWNER = "your_repo_owner"
+REPO_NAME = "your_repo_name"
+FILE_PATH = "path/to/your/file.txt"
 
 
 # # GitHub credentials
